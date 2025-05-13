@@ -1,0 +1,18 @@
+includes:
+    - ./vendor/calebdw/larastan/extension.neon
+
+parameters:
+    level: 6
+    paths:
+        - app
+    
+    # Include IDE helper files for better analysis
+    scanFiles:
+        - _ide_helper.php
+        - _ide_helper_models.php
+        - .phpstorm.meta.php
+    
+    # Common settings for Laravel projects
+    checkExplicitMixed: true
+    checkUnionTypes: true
+    reportUnmatchedIgnoredErrors: true

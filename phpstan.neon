@@ -1,0 +1,16 @@
+parameters:
+    level: 6
+    paths:
+        - src
+    
+    # Common settings for Laravel projects
+    checkExplicitMixed: true
+    checkUnionTypes: true
+    reportUnmatchedIgnoredErrors: false
+    
+    # Treat this as a package, not a full Laravel application
+    treatPhpDocTypesAsCertain: false
+    
+    # Don't try to boot Laravel for analysis
+    bootstrapFiles: []
+    stubFiles: []

@@ -1,0 +1,13 @@
+/vendor/
+/composer.lock
+/.phpunit.result.cache
+/.phpunit.cache/
+/.idea/
+/.vscode/
+/node_modules/
+/.env
+/.env.backup
+/.env.testing
+/.phpstorm.meta.php
+/_ide_helper.php
+/_ide_helper_models.php
